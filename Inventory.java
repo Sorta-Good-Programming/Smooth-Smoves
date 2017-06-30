@@ -4,8 +4,8 @@
  * Created On: 2017-06-30
  * Edited On: 2017-06-30
  *
- * This class is a linked list that serves as the Player's inventory. Each item the player acquires is added to the list.
- *
+ * This class is a linked list that serves as the player's inventory. The class provides methods that add items to the
+ * the player's inventory and searches the player's inventory for a specific item.
  */
 
 public class Inventory
