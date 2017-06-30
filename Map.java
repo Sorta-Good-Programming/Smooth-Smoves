@@ -3,5 +3,5 @@
  */
 public class Map
 {
-
+  private Room[][] Map; //map of the playable area
 }
