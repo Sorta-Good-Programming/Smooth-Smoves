@@ -1,8 +1,6 @@
 /*
  * Created By: Nick
- * Last Edited By: Nick
  * Created On: 2017-06-30
- * Edited On: 2017-06-30
  *
  * This class is a linked list that serves as the player's inventory. The class provides methods that add items to the
  * the player's inventory and searches the player's inventory for a specific item.
@@ -25,6 +23,7 @@ public class Inventory
     list = newNode;
   }
 
+  // returns true if an item is found in the player's inventory
   public boolean findItem(String item)
   {
     Node current = list;
@@ -42,8 +41,8 @@ public class Inventory
 
   private class Node
   {
-    public Node next;
-    public String data;
+    public Node next; // next node in the list
+    public String data; // item in the player's inventory
 
     public Node(String data)
     {
